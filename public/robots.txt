@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /*
+
+Disallow: /api/*
+
+Sitemap: https://hugodemetrio-fotografia.com.br/sitemap.xml

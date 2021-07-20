@@ -1,0 +1,63 @@
+
+:root {
+  font-size: 80%;
+
+  --color-background: #fff;
+  --color-text-itens: #556A7B;
+  --color-text-list: #556A7B;
+  --color-text-list-active: #fff;
+  --color-text-list-background-active: #556A7B;
+  --color-text-sobre-h1: #556A7B;
+  
+  --color-text-sobre-h2: #c6c4b8;
+  --color-text-sobre-p: #989898;
+  --color-contato-text-input-on: #556A7B;
+  --color-contato-focus-border: #556A7B;
+  --color-contato-error: #a3181d;
+  --color-view-icon: #aaa;
+  --color-like-icon: #a3181d;
+  --color-text-card: #989898;
+  
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ul li,
+ul ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+}
+@font-face {
+  font-family: Fixture;
+  font-display: swap;
+  src: url("../fonts/Fixture Condensed Regular 2.otf") format("opentype");
+}
+html,body, #root {
+  width: 100vw;
+  height: 100vh;
+
+}
+body {
+  background: var(--color-background);
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body, input,button,textarea{
+  font: 500 1.6rem;
+}
+
+@media (min-width: 767px){
+  :root {
+      font-size:100%;
+  }
+}

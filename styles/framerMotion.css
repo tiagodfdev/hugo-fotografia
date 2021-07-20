@@ -1,0 +1,13 @@
+.framerFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.framerFlexColumn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
